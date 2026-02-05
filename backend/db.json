@@ -1,0 +1,49 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Ana Perez",
+      "title": "Frontend Junior",
+      "skills": ["JS", "HTML", "CSS"],
+      "openToWork": true,
+      "contact": { "email": "ana@mail.com", "phone": "+57 3000000000" }
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Crudzaso",
+      "about": "Empresa de tecnología",
+      "website": "https://crudzaso.com"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "companyId": 1,
+      "title": "Junior Frontend",
+      "description": "HTML, CSS, JS",
+      "status": "open"
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "companyId": 1,
+      "jobId": 1,
+      "candidateId": 1,
+      "status": "pending",
+      "createdAt": "2026-02-04T00:00:00.000Z"
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "candidateId": 1,
+      "companyId": 1,
+      "jobId": 1,
+      "active": true,
+      "reservedAt": "2026-02-04T00:00:00.000Z"
+    }
+  ]
+}
